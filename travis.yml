@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+  - iojs
+before_install:
+  - npm i -g npm@^3.5.2
+script:
+  - npm run test
+after_success:
+#
