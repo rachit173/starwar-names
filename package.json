@@ -1,0 +1,23 @@
+{
+  "name": "starwar-names",
+  "version": "1.0.0",
+  "description": "\"Star Wars Package!!\"",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachit173/starwar-names.git"
+  },
+  "author": "Rachit Tibrewal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rachit173/starwar-names/issues"
+  },
+  "homepage": "https://github.com/rachit173/starwar-names#readme",
+  "save-exact": true,
+  "dependencies": {
+    "unique-random-array": "^1.0.1"
+  }
+}
